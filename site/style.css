@@ -1,0 +1,18 @@
+body {
+	background-color: powderblue;
+}
+
+#btn1 {
+	width: 48px;
+	height: 40px;
+	font-size: 20px;
+	color: brown;
+	background-color: white;
+	border: 0px;
+	border-radius: 7px;
+	font-family: courier;
+}
+
+#btn1:hover {
+	background-color: green;
+}
