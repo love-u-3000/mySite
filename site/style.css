@@ -2,17 +2,33 @@ body {
 	background-color: powderblue;
 }
 
-#btn1 {
-	width: 48px;
-	height: 40px;
-	font-size: 20px;
-	color: brown;
-	background-color: white;
-	border: 0px;
-	border-radius: 7px;
-	font-family: courier;
+h1 {
+	color: red;
+	text-align: center;
 }
 
-#btn1:hover {
-	background-color: green;
+nav {
+	word-spacing: 30px;
+	background-color: white;
+}
+
+#logout{
+	float: right;
+}
+
+a {
+	font-size: 30px;
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	background-color: black;
+}
+
+p {
+	font-family: courier;
+	font-style: italic;
+	background-color: pink;
+	text-align: center;
 }
