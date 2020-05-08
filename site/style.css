@@ -1,6 +1,7 @@
 body {
 	background-color: powderblue;
 	text-align: center;
+	font-family: serif;
 }
 
 h1 {
@@ -15,6 +16,7 @@ nav {
 	text-align: left;
 	padding: 4px;
 	border: 2px solid black;
+	border-radius: 10px;
 	word-spacing: 30px;
 	background-color: white;
 }
