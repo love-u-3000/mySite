@@ -1,4 +1,4 @@
 function hello() {
-	var btn=document.getElementById('btn1');
-	btn.innerHTML++;
+	document.getElementById('disp').innerHTML="Wow you should have not done that asshole";
+	document.getElementById('btn').innerHTML="Hide Me";
 }

@@ -1,13 +1,20 @@
 body {
 	background-color: powderblue;
+	text-align: center;
 }
 
 h1 {
 	color: red;
-	text-align: center;
+}
+
+h2 {
+	text-align: left;
 }
 
 nav {
+	text-align: left;
+	padding: 4px;
+	border: 2px solid black;
 	word-spacing: 30px;
 	background-color: white;
 }
@@ -30,5 +37,11 @@ p {
 	font-family: courier;
 	font-style: italic;
 	background-color: pink;
-	text-align: center;
+}
+
+#btn {
+	color: green;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
 }
