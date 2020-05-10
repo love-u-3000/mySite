@@ -73,4 +73,8 @@ span {
 	.col-md-12 {
 		width: 100%;
 	}
+
+	#sp3 {
+		width: 15%;
+	}
 }
