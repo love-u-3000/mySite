@@ -1,0 +1,24 @@
+#youtube, #google, #map {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border: 1px solid black;
+	overflow: hidden;
+	border-radius: 1px;
+	margin: 10px;
+}
+
+body {
+	background-color: maroon;
+}
+
+#youtube span, #google span, #map span {
+	color: chocolate;
+	font-size: 1.4em;
+	position: absolute;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.8;
+	width: 100%;
+	text-align: center;
+}

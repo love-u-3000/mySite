@@ -1,54 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Floating</title>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<style type="text/css">
 
-		* {
-			box-sizing: border-box;
-		}
-		p {
-			width: 50px;
-			height: 50px;
-			border: 2px solid black;
-			margin: 8px;
-			float: left;
-		}
-
-		#con{
-			background-color: pink;
-		}
-
-		#p1 {
-			background-color: red;
-		}
-
-		#p2 {
-			background-color: green;
-			clear: left;
-		}
-
-		#p3 {
-			background-color: blue;
-		}
-
-		#p4 {
-			clear: left;
-			background-color: yellow;
-		}
-
-		section {
-			clear: left;
-		}
 	</style>
 </head>
 <body>
-	<div id="con">
-		<p id="p1"></p>
-		<p id="p2"></p>
-		<p id="p3"></p>
-		<p id="p4"></p>
-		<section>Wow, this is awesome!</section>
-	</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">HOME</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">akjbd</a></li>
+				<li><a href="#">akjbd</a></li>
+				<li><a href="#">akjbd</a></li>
+				<li><a href="#">aksdsdsdsjbd</a></li>
+			</ul>
+			<p class="navbar-text">helosjdbc</p>
+			<div class="btn-group">
+				<button class="active btn btn-success navbar-btn">		Submit
+				</button>
+				<button class="btn btn-info navbar-btn">
+					Click
+				</button>
+				<div class="dropdown btn-group">
+					<button class="btn btn-primary navbar-btn dropdown-toggle" data-toggle="dropdown">
+						Click Me <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li>hello</li>
+						<li>sjbdsd</li>
+						<li>sdbskdb</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</nav>
 </body>
 </html>
