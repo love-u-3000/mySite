@@ -27,6 +27,7 @@ body {
 	position: relative;
 	left: 37.5%;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .cell:hover {
@@ -50,4 +51,12 @@ body {
 
 label {
 	font-size: 1.3em;
+}
+
+@media (max-width: 800px) {
+	.grid {
+		width: 50%;
+		position: relative;
+		left: 25%;
+	}
 }
